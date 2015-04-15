@@ -21,7 +21,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,16 +29,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
-	<!--Google Analytic-->
-	<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-61931021-1', 'auto');
-		  ga('send', 'pageview');
-	</script>
+	
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
@@ -86,19 +77,16 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 ">
-						<h1 class="brand-heading">Trung Hoang</h1>
-					</div>
-				</div>
-				<div class="row">
-				 <div  class="intro-text col-md-4 col-md-offset-4 ">
-						<div class="type-wrap"><span id="typed"></span></div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading"><div class="type-wrap"><span id="typed"></span></div></h1>
+
+                        <div  class="intro-text">
+						
 						</div>			
-                        
-                    </div>
-					<div class="row"><a href="#about" class="btn btn-circle page-scroll">
+                        <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
-                        </a></div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,10 +115,9 @@
             <div class="container">
                 <div class="col-lg-12 text-center ">
                     <h2 class="text-center ">my experiences</h2>
-                    <p>Updating...</p>
-                    <a href="https://www.facebook.com/Newbie.Photographer" class="btn btn-default btn-lg">Check my Photography page !</a>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
                 </div>
-				
             </div>
         </div>
     </section>
@@ -237,26 +224,26 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-12">
-									<form name="sentMessage" id="contactForm" method="post" action="http://formspree.io/htrung1311@gmail.com" novalidate>
+									<form name="sentMessage" id="contactForm" novalidate>
 										<div class="row">
 											<div class="col-md-12">
 												<div class="form-group">
-													<textarea class="form-control" placeholder="Remember to be nice!" name="message" id="message" required data-validation-required-message="Don't forget the message!"></textarea>
+													<textarea class="form-control" placeholder="Remember to be nice!" id="message" required data-validation-required-message="Don't forget the message!"></textarea>
 													<p class="help-block text-danger"></p>
 												</div>
 											</div>
 											<div class="col-md-5 col-sm-5" >
 												<div class="form-group">
-													<input type="text" class="form-control" placeholder="What should i call you ?" name="name"id="name" required data-validation-required-message="Don't be anonymous!">
+													<input type="text" class="form-control" placeholder="What should i call you ?" id="name" required data-validation-required-message="Don't be anonymous!">
 													<p class="help-block text-danger"></p>
 												</div>
 											</div>
 											<div class="col-md-7 col-sm-7">
 												<div class="form-group">
-													<input type="email" class="form-control" placeholder="How can i contact you ?"name="email" id="email" required data-validation-required-message="Give me address to text you back !">
+													<input type="email" class="form-control" placeholder="How can i contact you ?" id="email" required data-validation-required-message="Give me address to text you back !">
 													<p class="help-block text-danger"></p>
 												</div>
-											<input type="text" name="_gotcha" style="display:none" />	
+												
 											</div>                            
 											<div class="clearfix"></div>
 											<div class="col-lg-12 text-center">
@@ -284,8 +271,7 @@
 							</div>
 						</div>
 				</div>
-			</div>	
-			
+			</div>		
     </section>
 
     <!-- Map Section -->
@@ -310,7 +296,7 @@
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-	
+
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
 	
@@ -345,7 +331,7 @@
                                 <li>Client: Round Icons</li>
                                 <li>Category: Graphic Design</li>
                             </ul>
-                            <button type="button" class="btn  btn-default btn-lg"" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
                 </div>
